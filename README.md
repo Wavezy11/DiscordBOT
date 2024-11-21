@@ -1,7 +1,3 @@
-Hier is een aangepaste versie van de README waarin wordt aangegeven dat de gebruiker zelf `.env`-ondersteuning moet installeren:  
-
----
-
 # Discord Bot Setup Guide  
 
 This repository provides the basic setup for a Discord bot, including the core `index.js` file. Follow the instructions below to complete the setup and get your bot running.  
