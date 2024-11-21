@@ -71,11 +71,7 @@ This README provides a step-by-step guide to create and set up a Discord bot. Fo
 
          if (command === 'ping') {
              message.channel.send('Pong!');
-         } else if (command === 'ding') {
-             message.channel.send('Dong!');
-         } else if (command === 'freedom') {
-             message.channel.send('WHAT IS FREEDOM!?!??!?!??!?!');
-         }
+         } 
      });
 
      client.login(token);
@@ -104,7 +100,7 @@ This README provides a step-by-step guide to create and set up a Discord bot. Fo
 To add more commands to your bot, include additional `if` statements in your `index.js` file. For example:
 
 ```javascript
-if (command === 'test') {
+else if (command === 'test') {
     message.channel.send('This is a test command!');
 }
 ```
@@ -119,6 +115,12 @@ Typing `!test` in the Discord server will result in the bot replying with "This 
 - Check that the bot has the necessary permissions in your server.
 - Make sure Node.js and Discord.js are properly installed.
 
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+See the LICENSE file for more details.
 ---
 
 Happy coding! 🎉
