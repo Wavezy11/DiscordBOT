@@ -18,8 +18,8 @@ Before starting, ensure you have the following:
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Wavezy11/DiscordBOT.git
+   cd DiscordBOT
    ```  
 
 2. **Install Dependencies**:  
